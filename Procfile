@@ -1,0 +1,1 @@
+worker: python amore_bot.py
