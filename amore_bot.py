@@ -9,7 +9,7 @@ from telegram.ext import Application, CommandHandler, CallbackContext, MessageHa
 
 # Leggi le variabili d'ambiente
 TOKEN = os.environ.get("TOKEN")
-CHAT_ID = os.environ.get("CHAT_ID")
+CHAT_ID = int(os.environ.get("CHAT_ID"))
 
 # Fuso orario italiano
 TZ_ROME = pytz.timezone("Europe/Rome")
